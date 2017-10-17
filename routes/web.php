@@ -11,7 +11,7 @@
 |
 */
 Route::get('/','HomeController@index');
-
+Route::get('cool','cool\TestconTroller@index');
 Route::get('/', function () {
     return view('welcome');
 });

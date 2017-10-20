@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>詳細資料</title>
+	<title>排行榜</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}" />
 	<script type="text/javascript" src="{{ asset('js/jquery.min.js') }} "></script>
 	<script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
 </head>
+
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
@@ -55,4 +56,5 @@
 		</div>
 	</div>
 </body>
+
 </html>

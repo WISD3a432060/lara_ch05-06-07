@@ -21,6 +21,9 @@
 	</nav>
 	<div style="padding-top: 70px;"></div>
 	<div class="container">
+		@extends('layouts.master')
+		@section('title','排行榜')
+		@section('content')
 		<div class="page-header">
 			<h1>排名</h1>
 		</div>
@@ -48,7 +51,7 @@
 					<td>60</td>
 					<td>180</td>
 					<td>
-						<a class="btn btn-default btn-sm" href="#">查看學生資料</a>
+						<a class="btn btn-default btn-sm" href="{{route('student',['student_no'=>'s1234567890'])}}">查看學生資料</a>
 					</td>
 				</tr>
 				</tbody>
